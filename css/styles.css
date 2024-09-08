@@ -1,0 +1,162 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --logo-font: "Railway", sans-serif;
+
+  --white-color: #FFFFFF;
+  --navy-color: #2E2F42;
+  --light-color: #F4F4FD;
+
+  --primary-text-color: #434455;
+  --primary-title-color: #2E2F42;
+
+  --primary-color: #4D5AE5;
+  --primary-active-color: #404BBF;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-title-color);
+}
+
+.page-header {
+  background-color: var(--white-color);
+}
+
+.logo {
+  font-family: var(--logo-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1666;
+  color: var(--navy-color);
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+
+.logo.light {
+  color: var(--navy-color);
+}
+
+.logo.dark {
+  color: var(--light-color);
+}
+
+.logo-prefix {
+  color: var(--primary-color);
+}
+
+.nav-menu-link {
+  font-weight: 500;
+  color: var(--navy-color);
+}
+
+.nav-menu-link:hover,
+.nav-menu-link:focus {
+  color: var(--primary-active-color);
+}
+
+.contact-link {
+  color: var(--primary-text-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--primary-active-color);
+}
+
+.page-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.071;
+  color: var(--light-color);
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.111;
+  color: var(--primary-title-color);
+  text-align: center;
+}
+
+.primary-button {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  text-align: center;
+  cursor: pointer;
+}
+
+.primary-button:hover,
+.primary-button:focus {
+  background-color: var(--primary-active-color);
+}
+
+.hero-section {
+  background-color: var(--navy-color);
+  color: var(--light-color);
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+}
+
+.features-section {
+  background-color: var(--white-color);
+}
+
+.feature-item h3 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.team-section {
+  background-color: var(--light-color);
+}
+
+.team-member-item {
+  background-color: var(--white-color);
+  text-align: center;
+}
+
+.team-member-item h3 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.portfolio-section {
+  background-color: var(--light-color);
+}
+
+.portfolio-item {
+  background-color: var(--white-color);
+  text-align: center;
+}
+
+.portfolio-item h3 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.page-footer {
+  background-color: var(--navy-color);
+  color: var(--light-color);
+}
