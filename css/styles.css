@@ -1,6 +1,6 @@
 :root {
   --primary-font: "Roboto", sans-serif;
-  --logo-font: "Railway", sans-serif;
+  --logo-font: "Raleway", sans-serif;
 
   --white-color: #FFFFFF;
   --navy-color: #2E2F42;
@@ -45,7 +45,7 @@ h6 {
 }
 
 .logo {
-  font-family: "Railway", sans-serif;
+  font-family: var(--logo-font);
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -100,6 +100,7 @@ h6 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   color: var(--primary-title-color);
   text-align: center;
   text-transform: capitalize;
@@ -139,6 +140,7 @@ h6 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .feature-description,
