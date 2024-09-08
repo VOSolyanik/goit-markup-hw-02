@@ -17,7 +17,9 @@ body {
   font-family: var(--primary-font);
   font-size: 16px;
   line-height: 1.5;
+  background-color: var(--white-color);
   color: var(--primary-text-color);
+  letter-spacing: 0.02em;
 }
 
 ul,
@@ -43,30 +45,27 @@ h6 {
 }
 
 .logo {
-  font-family: var(--logo-font);
+  font-family: "Railway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.1666;
-  color: var(--navy-color);
-  letter-spacing: 0.48px;
+  line-height: 1.17;
+  color: var(--primary-color);
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.logo.light {
+.logo.light .logo-suffix {
   color: var(--navy-color);
 }
 
-.logo.dark {
+.logo.dark .logo-suffix {
   color: var(--light-color);
-}
-
-.logo-prefix {
-  color: var(--primary-color);
 }
 
 .nav-menu-link {
   font-weight: 500;
   color: var(--navy-color);
+  letter-spacing: 0.02em;
 }
 
 .nav-menu-link:hover,
@@ -74,8 +73,13 @@ h6 {
   color: var(--primary-active-color);
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .contact-link {
   color: var(--primary-text-color);
+  letter-spacing: 0.02em;
 }
 
 .contact-link:hover,
@@ -86,23 +90,29 @@ h6 {
 .page-title {
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.071;
-  color: var(--light-color);
+  line-height: 1.07;
+  color: var(--white-color);
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
 .section-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.111;
+  line-height: 1.11;
   color: var(--primary-title-color);
   text-align: center;
+  text-transform: capitalize;
 }
 
 .primary-button {
   background-color: var(--primary-color);
   color: var(--white-color);
   text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
@@ -123,9 +133,19 @@ h6 {
   background-color: var(--white-color);
 }
 
-.feature-item h3 {
+.feature-title,
+.team-member-title,
+.portfolio-title {
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
+}
+
+.feature-description,
+.team-member-description,
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .team-section {
@@ -137,11 +157,6 @@ h6 {
   text-align: center;
 }
 
-.team-member-item h3 {
-  font-size: 20px;
-  line-height: 1.2;
-}
-
 .portfolio-section {
   background-color: var(--light-color);
 }
@@ -151,12 +166,12 @@ h6 {
   text-align: center;
 }
 
-.portfolio-item h3 {
-  font-size: 20px;
-  line-height: 1.2;
-}
-
 .page-footer {
   background-color: var(--navy-color);
+}
+
+.footer-description {
   color: var(--light-color);
+  font-size: 16px;
+  line-height: 1.5;
 }
